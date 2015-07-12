@@ -93,7 +93,10 @@ public class CrossMapper_V0_1 extends PApplet {
         smooth();
         ellipseMode(CENTER);
         rectMode(RADIUS);
-        this.font = loadFont("C:\\OneDrive\\NetBeansProjects\\CrossMapperGoldsmiths\\CrossMapper_Goldsmiths_01\\src\\crossMapper_V0_1\\Batang-12.vlw");
+        //this.font = loadFont("C:\\OneDrive\\NetBeansProjects\\CrossMapperGoldsmiths\\CrossMapper_Goldsmiths_01\\src\\crossMapper_V0_1\\Batang-12.vlw");
+        
+        String fontpath = "C:\\Users\\Liam\\Documents\\NetBeansProjects\\CrossMapper\\src\\crossMapper_V0_1\\Batang-12.vlw";
+        this.font = loadFont(fontpath);
         textFont(this.font);
         textSize(textSiz);
 
