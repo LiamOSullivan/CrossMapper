@@ -84,9 +84,9 @@ public class CrossMapper_V0_1 extends PApplet {
     }
 
     public void setup() {
-        size(800, 600);//, OPENGL);		
+        size(1024, 768);//, OPENGL);		
         frameRate(25.0F);
-        background(255);
+        background(0);
         fill(150);
         strokeWeight(6.0F);
         stroke(100);
@@ -95,7 +95,7 @@ public class CrossMapper_V0_1 extends PApplet {
         rectMode(RADIUS);
         //this.font = loadFont("C:\\OneDrive\\NetBeansProjects\\CrossMapperGoldsmiths\\CrossMapper_Goldsmiths_01\\src\\crossMapper_V0_1\\Batang-12.vlw");
         
-        String fontpath = "C:\\Users\\Liam\\Documents\\NetBeansProjects\\CrossMapper\\src\\crossMapper_V0_1\\Batang-12.vlw";
+        String fontpath = "C:\\Users\\Liam\\Documents\\NetBeansProjects\\CrossMapper\\src\\crossMapper_V0_1\\ArialNarrow-18.vlw";
         this.font = loadFont(fontpath);
         textFont(this.font);
         textSize(textSiz);
@@ -137,7 +137,7 @@ public class CrossMapper_V0_1 extends PApplet {
 
     public void draw() {
 
-        background(255);
+        background(0);
 
         translate(xShift, yShift);
         for (int i = 0; i < noOfInputNs; i++) {

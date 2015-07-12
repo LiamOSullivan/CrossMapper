@@ -59,7 +59,7 @@ public class CrossMapper_V0_1_GUI extends JFrame {
 
 		//J Frame attributes
 		setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-		setTitle("CrossMapper Alpha 0.1");
+		setTitle("CrossMapper Alpha 0.12");
 		//setBackground(new java.awt.Color(255, 255, 255));
 		//setBounds(new java.awt.Rectangle(0, 0, 800, 600));
 		//setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -146,7 +146,7 @@ public class CrossMapper_V0_1_GUI extends JFrame {
 		jMenuBar1.add(settingsMenu);
 		//About menu
 		aboutMenu.setText("About");
-		jMenuItem14.setText("About Input-Output Mapper");
+		jMenuItem14.setText("About CrossMapper");
 		aboutMenu.add(jMenuItem14);
 		jMenuBar1.add(aboutMenu);
 

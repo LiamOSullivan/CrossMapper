@@ -173,12 +173,12 @@ public class OutputNode extends Node
 
 	void display()
 	{
-		parent.fill(255.0F, 0.0F, 0.0F);
-		for (int i = 0; i < maxOutputNs; i++)
-		{
-			parent.text(myWeights[i], x - nodeSize/2, y+(i*CrossMapper_V0_1_Start.myMapperV3.textSiz));
-		}
-		parent.text(myOutput, x+nodeSize, y+(nodeSize/2));
+		//parent.fill(255.0F, 0.0F, 0.0F);
+//		for (int i = 0; i < maxOutputNs; i++)
+//		{
+//			parent.text(myWeights[i], x - nodeSize/2, y+(i*CrossMapper_V0_1_Start.myMapperV3.textSiz));
+//		}
+//		parent.text(myOutput, x+nodeSize, y+(nodeSize/2));
 	}
 
 
