@@ -116,7 +116,7 @@ public class CrossMapper_V0_1 extends PApplet {
             serialInitialise();
         }
 
-        nodeSize = ((height) / (maxInputNs + 1));//spacing will be done in the drawing method of the node
+        nodeSize = ((height) / (maxInputNs + 3));//spacing will be done in the drawing method of the node
         xShift = (int) (width * 0.25);
         yShift = (int) (height * 0.3);
         //println("Each Node has a size of "+nodeSize);
@@ -287,7 +287,7 @@ public class CrossMapper_V0_1 extends PApplet {
         println("Initialising Serial Communications at " + baudRate + " Baud");
         startTime = System.currentTimeMillis();
         try {
-            comPort = Serial.list()[1];
+            comPort = Serial.list()[0];
             println("*************************************");
             println("Avaiable Serial Com Port is: " + comPort);
             println("*************************************");
